@@ -1,4 +1,4 @@
-Demo: http://nuclearban.icanaustria.at
+Demo: http://nuclearban.de
 
 Currently using Foundation 6.3.0
 

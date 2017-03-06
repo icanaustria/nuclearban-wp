@@ -245,14 +245,6 @@
 		"oF": 0,
 		"opt": 0
 		},
-	"\/assets\/images\/logo.png": {
-		"ft": 32768,
-		"iS": 4239,
-		"oA": 0,
-		"oAP": "\/assets\/images\/logo.png",
-		"oF": 0,
-		"opt": 0
-		},
 	"\/assets\/images\/logo.svg": {
 		"ft": 2097152,
 		"miP": 0,
@@ -276,14 +268,6 @@
 		"iS": 0,
 		"oA": 0,
 		"oAP": "\/assets\/images\/search-arrow.png",
-		"oF": 0,
-		"opt": 0
-		},
-	"\/assets\/images\/Unknown.png": {
-		"ft": 32768,
-		"iS": 834300,
-		"oA": 0,
-		"oAP": "\/assets\/images\/Unknown.png",
 		"oF": 0,
 		"opt": 0
 		},
@@ -4839,7 +4823,7 @@
 	},
 "projectAttributes": {
 	"creationDate": 503254035,
-	"displayValue": "nuclearban-wp-old",
+	"displayValue": "nuclearban-wp",
 	"displayValueWasSetByUser": 0,
 	"iconImageName": "meme-chloe",
 	"lastBuiltDate": 503260844
