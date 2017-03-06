@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8"/>
+	<meta name="demo" content="http://nuclearban.icanaustria.at"/>
+</head>
+<body>
+
+<p>Currently using Foundation 6.3.0</p>
+
+<h3 id="whatisthis">What is this?</h3>
+
+<p>nuclearban-wp is a WordPress theme built with Foundation 6 for websites of the International Campaign to Abolish Nuclear Weapons (ICAN). The theme is mobile first, this means it is build and optimized for small and medium sized screens like smartphones and tablets over mobile connections.</p>
+
+<h3 id="whatdoineedtouseit">What do I need to use it?</h3>
+
+<h3 id="stylesheetfolderstructure">Stylesheet Folder Structure</h3>
+
+<p>style.css: Do not worry about this file. (For some reason) it&#8217;s required by WordPress. All styling are handled in the Sass files described below</p>
+
+<p>scss/foundation.scss: Imports for Foundation components and your custom styles.</p>
+
+<p>scss/config/_settings.scss: Original Foundation 5 base settings
+scss/config/_custom-settings.scss: Copy the settings you will modify to this file. Make it your own
+scss/site/*.scss: Unleash your creativity and make it look perfect. Create the files you need (and remember to make import statements for all your files in scss/foundation.scss)</p>
+
+<p>css/foundation.css: All Sass files are minified and compiled to this file</p>
+
+<p>css/foundation.css.map: CSS source maps</p>
+
+<h3 id="scriptfolderstrucutre">Script Folder Strucutre</h3>
+
+<p>bower_components/: This is the source folder where all Foundation components are located. foundation update will check and update scripts in this folder.</p>
+
+<p>js/custom: This is where you put all your custom scripts. Every .js file you put in this directory will be minified and concatinated to foundation.js</p>
+
+<p>js/vendor: Vendor scripts are copied from bower_components/ to this directory. We use this path for enqueing the vendor scripts in WordPress.</p>
+
+<p>Please note that you must run grunt build in your terminal for the script to be copied and concatinated. See Gruntfile.js for details</p>
+
+<h3 id="license">License</h3>
+
+<p>GNU General Public License &amp; MIT.</p>
+
+<p>Confused yet?</p>
+
+<p>All ICAN, JointsWP and WordPress functions and styles are under the GPL license. All Foundation components fall under the MIT license.</p>
+
+</body>
+</html>
