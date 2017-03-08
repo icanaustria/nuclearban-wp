@@ -17,7 +17,7 @@ function site_scripts() {
 
 
 	// Google Fonts
-	wp_enqueue_style( 'site-fonts', 'http://fonts.googleapis.com/css?family=Open+Sans:400,300,600,700', array(), '', 'all' );
+	wp_enqueue_style( 'site-fonts', 'https://fonts.googleapis.com/css?family=Open+Sans:400,300,600,700', array(), '', 'all' );
 
     // Comment reply script for threaded comments
     if ( is_singular() AND comments_open() AND (get_option('thread_comments') == 1)) {
